@@ -30,7 +30,8 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/first_name"/>
 
     </LinearLayout>
 
@@ -46,13 +47,15 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/last_name"/>
 
     </LinearLayout>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="save_user"
         android:text="Submit" />"
 
 </LinearLayout>
