@@ -46,6 +46,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="save_user"
-        android:text="Submit" />"
+        android:text="Submit" />
+
+<!--    Button programmed with java - dont use onClick-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="With Java" />
 
 </LinearLayout>
