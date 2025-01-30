@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyFirstApplication</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="submit">Submit</string>
+    <string name="display_full_name">Display Full Name</string>
+    <string name="click_on_button_to_display_full_name">Click on button to display full name</string>
 </resources>
