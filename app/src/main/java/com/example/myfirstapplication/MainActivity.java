@@ -16,9 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        Add java listener to button
         Button bt = findViewById(R.id.button);
-//        We create an anonymous object/class from the interface to not have to create a class for each listener
 //        bt.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
@@ -26,9 +24,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-        //        There is also the option of creating a lambda expression - best way for event listening
         bt.setOnClickListener(v -> {
-//            Fits multiple lines or one
             EditText ed_firstname = findViewById(R.id.first_name);
             String firstName = ed_firstname.getText().toString();
 
@@ -56,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+//    Function for button using onClick property
     public void save_user(View v) {
         EditText ed_firstname = findViewById(R.id.first_name);
 
